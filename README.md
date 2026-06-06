@@ -29,3 +29,20 @@ npm run dev
 
 - The `Authorization` header must include `Bearer <token>` for protected requests.
 - Passwords are hashed using `bcryptjs` and JWT tokens are signed with `JWT_SECRET`.
+
+## API Demo Screenshots
+
+### Register User
+
+![Register User](images/Register_User.png)
+*Register a new user with a name, email, and password.*
+
+### Login User
+
+![Login User](images/Login_User.png)
+*Log in with registered credentials to receive a JWT token.*
+
+### Get Profile
+
+![Get Profile](images/Get_Profile.png)
+*Fetch the authenticated user profile using the Bearer token.*
